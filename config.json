@@ -1,0 +1,71 @@
+{
+    "configserver-rs": {
+        "_id": "configserver-rs",
+        "configsvr": true,
+        "members": [
+            {
+                "_id": 0,
+                "host": "localhost:1001"
+            },
+            {
+                "_id": 1,
+                "host": "localhost:1002"
+            },
+            {
+                "_id": 2,
+                "host": "localhost:1003"
+            }
+        ]
+    },
+    "shard1-rs": {
+        "_id": "shard1-rs",
+        "members": [
+            {
+                "_id": 0,
+                "host": "localhost:1011"
+            },
+            {
+                "_id": 1,
+                "host": "localhost:1012"
+            },
+            {
+                "_id": 2,
+                "host": "localhost:1013"
+            }
+        ]
+    },
+    "shard2-rs": {
+        "_id": "shard2-rs",
+        "members": [
+            {
+                "_id": 0,
+                "host": "localhost:1021"
+            },
+            {
+                "_id": 1,
+                "host": "localhost:1022"
+            },
+            {
+                "_id": 2,
+                "host": "localhost:1023"
+            }
+        ]
+    },
+    "shard3-rs": {
+        "_id": "shard3-rs",
+        "members": [
+            {
+                "_id": 0,
+                "host": "localhost:1031"
+            },
+            {
+                "_id": 1,
+                "host": "localhost:1032"
+            },
+            {
+                "_id": 2,
+                "host": "localhost:1033"
+            }
+        ]
+    }
+}
